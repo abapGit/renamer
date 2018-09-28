@@ -1,0 +1,22 @@
+{
+  "name": "renamer",
+  "version": "1.0.0",
+  "description": "renamer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "renamer": "./renamer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abapGit/renamer.git"
+  },
+  "author": "abapGit Community",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abapGit/renamer/issues"
+  },
+  "homepage": "https://github.com/abapGit/renamer#readme"
+}
