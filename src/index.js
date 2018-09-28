@@ -34,7 +34,7 @@ function buildRenameMap(files) {
     let match = file.name.match(/^(.*)\.\w{4}\.xml$/);
     if (match) {
 // todo, make this configurable
-      res.push({old: match[1], new: match[1].replace(/^z(\w{2})_/, "y$1_")});
+      res.push({old: match[1], new: match[1].replace(/^z(\w{2}|abapgit)/, "y$1")});
     }
   });
   return res;
